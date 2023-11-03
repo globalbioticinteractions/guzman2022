@@ -1,0 +1,114 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "main_pollinator_plant.csv",
+    "dcterms:bibliographicCitation" : "Guzman, Laura Melissa; Kelly, Tyler; Elle, Elizabeth, 2022, \"A dataset for pollinator diversity and their interactions with plants in the Pacific NorthWest\", https://doi.org/10.5683/SP3/WTEZNH, Borealis, V1",
+    "delimiter" : ",",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName": "pollinates",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002455",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "sourceCatalogNumber",
+        "titles" : "catalog_number",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonFamilyName",
+        "titles" : "pollinator_family",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonGenusName",
+        "titles" : "pollinator_genus",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonSpecificEpithetName",
+        "titles" : "pollinator_species",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceSexName",
+        "titles" : "pollinator_sex",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonId",
+        "titles" : "plant_sp_code",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "plant_species",
+        "datatype" : "string"
+      }, {
+        "name" : "collection_method",
+        "titles" : "collection_method",
+        "datatype" : "string"
+      }, {
+        "name" : "pantrap_colour",
+        "titles" : "pantrap_colour",
+        "datatype" : "string"
+      }, {
+        "name" : "collector_number",
+        "titles" : "collector_number",
+        "datatype" : "string"
+      }, {
+        "name" : "day_collected",
+        "titles" : "day_collected",
+        "datatype" : "string"
+      }, {
+        "name" : "month_collected",
+        "titles" : "month_collected",
+        "datatype" : "string"
+      }, {
+        "name" : "http://rs.tdwg.org/dwc/terms/eventDate",
+        "titles" : "year_collected",
+        "datatype" : "string"
+      }, {
+        "name" : "time_of_day_collected",
+        "titles" : "time_of_day_collected",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "location_description",
+        "datatype" : "string"
+      }, {
+        "name" : "location_name",
+        "titles" : "location_name",
+        "datatype" : "string"
+      }, {
+        "name" : "habitat",
+        "titles" : "habitat",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "basis_of_record",
+        "titles" : "basis_of_record",
+        "datatype" : "string"
+      }, {
+        "name" : "location_specimen",
+        "titles" : "location_specimen",
+        "datatype" : "string"
+      }, {
+        "name" : "study_director",
+        "titles" : "study_director",
+        "datatype" : "string"
+      }, {
+        "name" : "citationReference",
+        "titles" : "study",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
