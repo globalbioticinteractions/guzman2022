@@ -12,7 +12,7 @@
     "dcterms:bibliographicCitation" : "Guzman, Laura Melissa; Kelly, Tyler; Elle, Elizabeth, 2022, \"A dataset for pollinator diversity and their interactions with plants in the Pacific NorthWest\", https://doi.org/10.5683/SP3/WTEZNH, Borealis, V1",
     "delimiter" : ",",
     "headerRowCount" : 1,
-    "null" : [ "","NA" ],
+    "null" : [ "" ],
     "interactionTypeName": "pollinates",
     "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002455",
     "tableSchema" : {
